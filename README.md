@@ -1,1 +1,2 @@
 # Python-script
+Count.py: 第一列相同的项，后面每一列相加
