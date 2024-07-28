@@ -32,7 +32,7 @@ def  download_and_split_fasta(accession_numbers,  output_folder):
 
 def  main():
       if  len(sys.argv)  <  3  or  sys.argv[1]  in  ["-h",  "--help"]:
-          print("Usage:  python  NCBI-download.py  -i  accession.number.csv  -o  ./folder")
+          print("Usage:  python Download_NCBI_Reads.py   -i  accession.number.csv  -o  ./folder")
           sys.exit()
      
       input_file  =  sys.argv[1].split('-i  ')[1]
