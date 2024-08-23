@@ -32,9 +32,9 @@ Gene-rename.py:python Gene-rename.py
 
 select-protein.py：根据非冗余基因集的基因名，提取对用的蛋白序列。
 
-###
+~~~
 python extract_sequences.py -fna path/to/your/input.fna -faa path/to/your/input.faa -out path/to/your/output.faa
-###
+~~~
 
 
 
