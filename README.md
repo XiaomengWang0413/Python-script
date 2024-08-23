@@ -27,3 +27,18 @@ Gene-rename.py:python Gene-rename.py
     运行脚本。
 
 这个脚本会遍历指定目录下的所有 .fa 文件，并将每个基因名称修改为文件名（去掉 .fa 后缀）加上连续的数字，最后将修改后的文件保存到输出目录中。
+
+
+
+select-protein.py：根据非冗余基因集的基因名，提取对用的蛋白序列。
+
+###
+python extract_sequences.py -fna path/to/your/input.fna -faa path/to/your/input.faa -out path/to/your/output.faa
+###
+
+
+
+
+
+
+
