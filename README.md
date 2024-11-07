@@ -4,8 +4,15 @@ Count.py: 第一列相同的项，后面每一列相加
 如果你想了解如何使用请运行：python count.py -h
 
 
-checkv.py python checkv.py -h :checkv结果筛选
+checkv.py 
+python checkv.py -h :checkv结果筛选
+~~~
+python /home/xiaomeng/scripts/python/checkv.py -h
 
+
+python /home/xiaomeng/scripts/python/checkv.py -t Checkv/quality_summary.tsv -f EIO.fasta -k Complete -o Complete.fasta
+python /home/xiaomeng/scripts/python/checkv.py -t Checkv/quality_summary.tsv -f EIO.fasta -k High-quality -o High.fasta
+python /home/xiaomeng/scripts/python/checkv.py -t Checkv/quality_summary.tsv -f EIO.fasta -k Medium-quality -o Medium.fasta
 
 
 Gene-rename.py:python Gene-rename.py
