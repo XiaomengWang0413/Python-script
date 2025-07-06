@@ -1,1 +1,6 @@
+inStrain Contig Link Gene name
 
+~~~
+python contig.py -c contigs.fasta -p genes.prodigal -o contig_gene_map.txt
+
+~~~
